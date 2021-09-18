@@ -1,6 +1,6 @@
 {
   "name": "test-create-github-action",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "> This repo is for test create github action",
   "main": "dist/index.js",
   "scripts": {
