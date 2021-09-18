@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: yuler/test-create-github-action@main
+        uses: yuler/test-create-github-action@v1.0.0
         with:
           who-to-greet: 'yuler'
       # Use the output from the `hello` step
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
-        uses: ./.github/actions/local-hello
+        uses: ./
         with:
           who-to-greet: 'yuler'
       # Use the output from the `hello` step
